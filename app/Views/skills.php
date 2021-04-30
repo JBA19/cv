@@ -1,155 +1,129 @@
-<div class="col-sm-11 flex-fill">
-    <main class="row">
-        <section id="main-section">
-            <h1>Mes compétences</h1>
-            <h2>Professionnelles</h2>
-            <section id="skills">
-                <article id="front">
+<?= $this->extend("app") ?>
+<?= $this->section("body") ?>
+
+    <main id="main">
+        <section class="container-fluid">
+            <h1 class="text-center">Mes compétences</h1>
+            <div id="skills" class="row">
+                <h2>Professionnelles</h2>
+                <article id="front" class="col-md-4">
                     <h3>Front-end</h3>
-      
-                    <div id="html" class="container-fluid">
+                    <div id="html">
                         <h4>HTML</h4>
-                        <div class="progress2 progress-moved">
-                            <div class="progress-bar2" >
-                            </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-      
-                    <div id="CSS" class="container-fluid">
+                    <div id="css">
                         <h4>CSS/Bootstrap</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-      
-                    <div id="JS" class="container-fluid">
-                        <h4>JS/jQuery</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                    <div id="js">
+                        <h4>Javascript/jQuery</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
                 </article>
-        
-                <article id="back">
+                <article id="back" class="col-md-4">
                     <h3>Back-end</h3>
-            
-                    <div id="php" class="container-fluid">
+                    <div id="php">
                         <h4>PHP</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-        
-                    <div id="SQL" class="container-fluid">
+                    <div id="sql">
                         <h4>SQL</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-        
-                    <div id="Symfony" class="container-fluid">
+                    <div id="symfony">
                         <h4>Symfony 4</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-        
-                    <div id="CI" class="container-fluid">
-                        <h4>CodeIgniter 3</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                    <div id="ci">
+                        <h4>CodeIgniter 3 et 4</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
                 </article>
-        
-                <article id="others">
-                    <h3>Compétences annexes</h3>
-        
-                    <div id="OPQUAST" class="container-fluid">
+                <article id="others" class="col-md-4">
+                    <h3>Compétences complémentaies</h3>
+                    <div id="opquast">
                         <h4>OPQUAST</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-        
-                    <div id="AGILES" class="container-fluid">
-                        <h4>AGILES</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                    <div id="agiles">
+                        <h4>Méthodes AGILES</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-            
-                    <div id="Wordpress" class="container-fluid">
-                        <h4>Wordpress</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                    <div id="wp">
+                        <h4>WORDPRESS</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-            
-                    <div id="Anglais" class="container-fluid">
+                    <div id="anglais">
                         <h4>Anglais</h4>
-                        <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                        </div> 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
                 </article>
-      
-            </section>
-            <section>
                 <h2>Personnelles</h2>
-                <article id="personal">
-        
-                    <div id="Rigueur" class="container-fluid">
-                    <h4>Rigueur</h4>
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                    </div> 
+                <article id="others" class="col-md-4">
+                    <div id="rigueur">
+                        <h4>Rigueur</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
-            
-                    <div id="Organisation" class="container-fluid">
-                    <h4>Organisation</h4>
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                    </div> 
-                    </div>
-        
-                    <div id="team" class="container-fluid">
-                    <h4>Travail d'équipe</h4>
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                    </div> 
-                    </div>
-            
-                    <div id="Autonomie" class="container-fluid">
-                    <h4>Autonomie</h4>
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                    </div> 
-                    </div>
-            
-                    <div id="fun" class="container-fluid">
-                    <h4>Adresse au tir nerf</h4>
-                    <div class="progress2 progress-moved">
-                        <div class="progress-bar2" >
-                        </div>                       
-                    </div> 
+                    <div id="org">
+                        <h4>Organisation</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
                     </div>
                 </article>
-            </section>
+                <article id="others" class="col-md-4">
+                    <div id="team">
+                        <h4>Esprit d'équipe</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
+                    </div>
+                    <div id="autonomie">
+                        <h4>Autonomie</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>                        </div>
+                    </div>
+                </article>
+                <article id="others" class="col-md-4">
+                    <div id="curiosite">
+                        <h4>Curiosité</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>                        </div>
+                    </div>
+                    <div id="nerf">
+                        <h4>Compétence de tir au nerf</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%"></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
-</div>
+
+<?= $this->endsection("body") ?>

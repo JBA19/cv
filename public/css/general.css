@@ -1,11 +1,14 @@
 /* PARAMETRES GENERAUX */
+    :root {
+        --primary-color-bg : #333333;
+        --second-color-bg : #66bb6a;
+        --primary-color-font : #181818;
+        --second-color-font : #ffffff;
+        --third-color-font : #66bb6a;
+    }
 
     *, *::before, *::after {
         box-sizing: border-box;
-    }
-
-    #main_screen > .row {
-        min-height: 90vh;
     }
 
     footer {
@@ -13,14 +16,20 @@
         text-align: center;
     }
 
-    .flex-fill {
-        flex:1 1 auto;
+    body {
+        background-color: var(--primary-color-bg);
+        color: var(--second-color-font);
+        display: flex;
+        flex-direction: column;
+        position: relative;
     }
 
-    body {
-        background-color: #333333;
-        color: #ffffff;
+    label {
+        color: var(--primary-color-font)
+    }
 
+    #message {
+        height:auto;
     }
 
     .container-fluid, .col-sm-1, .col-sm-11, .row {
@@ -28,36 +37,43 @@
         margin: 0;
     }
 
+    #main {
+        min-height: 85vh;
+    }
+
 /* MENU */
 
     header {
-        background-color: #181818;
+        background-color: var(--second-color-bg);
         text-align: center;
     }
 
-    nav > ul {
+    nav ul {
         padding-left: 0;
+        list-style: none;
     }
 
     .fa-home, .fa-id-card, .fa-cog, .fa-eye, .fa-envelope, .fa-linkedin-in {
-        color: white;
+        color: var(--primary-color-font);
         font-size: 25px;
     }
 
     .menu-anim {
         position: relative;
-        background-color:#181818;
+        background-color:var(--second-color-bg);
         overflow: hidden;
         cursor: pointer;
     }
 
     .menu-anim .menu-anim-dynamic {
-        background-color: #181818;
+        background-color: var(--second-color-bg);
         overflow: hidden;
     }
 
     .menu-anim-static { 
         font-size: 11px;
+        color: var(--primary-color-font);
+        text-decoration: underline;
     }
 
 /* TITRES */
@@ -87,7 +103,7 @@
 /* LIENS */
 
     a {
-        color: #ffffff;
+        color: var(--second-color-font);
         text-decoration: underline;
     }
 
@@ -96,17 +112,23 @@
     }
 
     a:hover {
-        color: #48df4f;
+        color: var(--third-color-font);
     }
 
 /* PAGE SKILLS */
 
-    #main-section {
-        width: 100%;
+
+
+/* PAGE CONTACT */
+
+    .input-group, .form-floating {
+        margin: 1.5em;
     }
 
-    #skills {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        justify-content: space-between;
+/* FOOTER */
+
+    footer {
+        background-color: var(--second-color-bg);
+        text-align: center;
+        color: var(--primary-color-font);
     }

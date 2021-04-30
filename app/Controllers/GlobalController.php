@@ -11,11 +11,7 @@ class GlobalController extends BaseController
         throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
     }
 
-    // $data['title'] = ucfirst($page);
-
-    echo view('templates/header');
     echo view($page);
-    echo view('templates/footer');
 	}
 
 }
