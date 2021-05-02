@@ -115,9 +115,54 @@
         color: var(--third-color-font);
     }
 
+/* PAGE ABOUT */
+
+.carousel-indicators {
+    flex-direction: column;
+    bottom: 50%;
+    margin: auto;
+    left: 90%;
+    justify-content: unset;
+}
+
+.carousel-indicators span {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.list-style-custom {
+    display: list-item;
+    list-style: initial;
+}
+
 /* PAGE SKILLS */
 
+.progress {
+    height: 2em;
+}
 
+#php .progress-bar,
+#sql .progress-bar,
+#symfony .progress-bar,
+#ci .progress-bar {
+    background-color:  #ef5350 ;
+}
+
+#opquast .progress-bar,
+#agiles .progress-bar,
+#wp .progress-bar,
+#anglais .progress-bar {
+    background-color:  #ba68c8 ;
+}
+
+#rigueur .progress-bar,
+#org .progress-bar,
+#team .progress-bar,
+#autonomie .progress-bar,
+#curiosite .progress-bar,
+#nerf .progress-bar {
+    background-color:  #ffd54f ;
+}
 
 /* PAGE CONTACT */
 
