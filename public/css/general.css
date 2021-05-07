@@ -117,6 +117,24 @@
 
 /* PAGE ABOUT */
 
+.carousel .carousel-item-next.carousel-item-start,
+.carousel .carousel-item-prev.carousel-item-end {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.carousel .carousel-item-next,
+.carousel .active.carousel-item-end {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.carousel .carousel-item-prev,
+.carousel .active.carousel-item-start {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
 .carousel-indicators {
     flex-direction: column;
     bottom: 50%;
@@ -130,9 +148,13 @@
     margin-top: 2vh;
 }
 
-.list-style-custom {
+.carousel-indicators span.active {
     display: list-item;
     list-style: initial;
+}
+
+.carousel-item {
+    transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
 }
 
 /* PAGE SKILLS */
