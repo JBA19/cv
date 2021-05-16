@@ -42,10 +42,10 @@
     </div>
   </div>
   <li class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span aria-hidden="true"><i class="fas fa-3x fa-angle-up"></i></span>
   </li>
   <li class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span aria-hidden="true"><i class="fas fa-3x fa-angle-down"></i></span>
   </li>
 </div>
 </main>

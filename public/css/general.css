@@ -131,8 +131,22 @@
 
 .carousel .carousel-item-prev,
 .carousel .active.carousel-item-start {
--webkit-transform: translate3d(0,-100%, 0);
+    -webkit-transform: translate3d(0,-100%, 0);
         transform: translate3d(0,-100%, 0);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: auto;
+}
+
+.carousel-control-next {
+    top : unset;
+    right: 1%;
+}
+
+.carousel-control-prev {
+    bottom : unset;
+    left: 84%;
 }
 
 .carousel-indicators {
