@@ -132,30 +132,41 @@
 .carousel .carousel-item-prev,
 .carousel .active.carousel-item-start {
     -webkit-transform: translate3d(0,-100%, 0);
-        transform: translate3d(0,-100%, 0);
+            transform: translate3d(0,-100%, 0);
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
+    top: unset;
     width: auto;
-}
-
-.carousel-control-next {
-    top : unset;
-    right: 1%;
+    z-index: 2000;
+    color: var(--primary-color-font);
+    opacity: 1;
+    /* display:inline-flex; */
+    /* flex-direction: column; */
 }
 
 .carousel-control-prev {
-    bottom : unset;
-    left: 84%;
+    left: unset;
 }
 
-.carousel-indicators {
+/* .carousel-control-next {
+    top : 70%;
+    right: 8%;
+}
+
+.carousel-control-prev {
+    bottom : 70%;
+    left: 90%;
+} */
+
+/* .carousel-indicators {
     flex-direction: column;
     bottom: 50%;
     margin: auto;
     left: 90%;
     justify-content: unset;
-}
+} */
 
 .carousel-indicators span {
     margin-bottom: 2vh;

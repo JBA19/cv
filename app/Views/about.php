@@ -12,41 +12,47 @@
     </main>
 </div> -->
 <main id="main" class="container-fluid">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-  <div class="carousel-indicators">
-    <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1986</span>
-    <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2004</span>
-    <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">2018</span>
+  <div id="carouselExampleCaptions" class=" carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1986</span>
+      <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">2004</span>
+      <span type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">2018</span>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
+        <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
+        <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
+        <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-fluid col"> -->
+      <div class="row">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span><i class="fas fa-3x fa-angle-up"></i></span>
+          </button>
+      </div>
+      <div class="row">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span><i class="fas fa-3x fa-angle-down"></i></span>
+          </button>
+      </div>
+    <!-- </div> -->
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
-      <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
-      <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.cieletespace.fr/media/default/0001/17/ESA_Gaia_DR2_1400x700-5c75.jpeg" class="d-block" alt="...">
-      <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <li class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span aria-hidden="true"><i class="fas fa-3x fa-angle-up"></i></span>
-  </li>
-  <li class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span aria-hidden="true"><i class="fas fa-3x fa-angle-down"></i></span>
-  </li>
-</div>
 </main>
 <?= $this->endsection("body") ?>
