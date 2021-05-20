@@ -160,13 +160,13 @@
     left: 90%;
 } */
 
-/* .carousel-indicators {
+.carousel-indicators {
     flex-direction: column;
-    bottom: 50%;
+    bottom: 25%;
     margin: auto;
     left: 90%;
     justify-content: unset;
-} */
+}
 
 .carousel-indicators span {
     margin-bottom: 2vh;
@@ -179,12 +179,31 @@
 }
 
 .carousel-item {
-    transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+    overflow: hidden;
+    min-height: 600px;
+    transition: 1.5s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.5s;
 }
+ .carousel-item::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: -115%;
+    bottom: -10%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+ }
 
 .carousel-caption {
-    --animate-duration: 1.5s;
+    --animate-duration: 2.5s;
     top: 40%;
+    z-index: 2;
+}
+
+.carousel-caption h2 {
+    font-style: italic;
 }
 
 /* PAGE SKILLS */
