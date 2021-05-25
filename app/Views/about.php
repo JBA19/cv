@@ -1,5 +1,9 @@
 <?= $this->extend("app") ?>
 <?= $this->section("body") ?>
+<head>
+  <meta name="description" content="A propos - AUBER Jean-Baptiste, développeur full-stack. Vous trouverez sur cette page l'intégralité de mon parcours, des formations aux expériences professionnelles.">
+  <title>A propos - Portefolio JB AUBER</title>
+</head>
 
 <main id="main" class="container-fluid">
   <h1>A propos de moi !</h1>
@@ -16,13 +20,11 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo base_url(); ?>/img/1986.jpg" class="d-block w-100 w-100" alt="naissance">
+        <img src="<?php echo base_url(); ?>/img/1986.jpg" class="d-block w-100" alt="naissance">
         <div class="carousel-caption d-none d-md-block text-end animate__animated animate__backInRight">
-        <div>
           <h2>Venue au monde !</h2>
           <p>Tout le mérite revient à ma mère,</p>
           <p>mais cela reste quand même le point de départ !</p>
-        </div>  
         </div>
       </div>
       <div class="carousel-item">

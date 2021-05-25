@@ -5,8 +5,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="CV AUBER Jean-Baptiste, développeur full-stack">
-        <title>Portfolio AUBER Jean-Baptiste</title>
         <!-- <link rel="shortcut icon" href="<?php echo base_url(); ?>/favicon.ico" /> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -77,7 +75,9 @@
 		
         <footer class="col-md-12">
           <div class="col col-xs-12">
-            <p>2020</p>
+            <p>2021</p>
+            <p>Jean-Baptiste AUBER - Dév Web - Tous droits réservés</p>
+            <p>Version 1.0.0 - non responsive</p>
           </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

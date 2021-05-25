@@ -1,6 +1,11 @@
 <?= $this->extend("app") ?>
 <?= $this->section("body") ?>
 
+<head>
+  <meta name="description" content="Compétences - AUBER Jean-Baptiste, développeur full-stack. Vous trouverez sur cette page l'ensemble des compétences, savoir-faire et savoir-être que je mets à votre disposition.">
+  <title>Compétences - Portefolio JB AUBER</title>
+</head>
+
     <main id="main">
         <section class="container-fluid">
             <h1 class="text-center">Mes compétences</h1>

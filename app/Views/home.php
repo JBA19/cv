@@ -1,6 +1,11 @@
 <?= $this->extend("app") ?>
 <?= $this->section("body") ?>
 
+<head>
+  <meta name="description" content="Accueil - AUBER Jean-Baptiste, développeur full-stack. Vous trouverez sur cette page l'intégralité de mon parcours, des formations aux expériences professionnelles.">
+  <title>Accueil - Portefolio JB AUBER</title>
+</head>
+
     <main id="main" class="row h-80">
         <section>
             <h1>Jean-Baptiste AUBER</h1>

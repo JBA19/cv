@@ -1,6 +1,11 @@
 <?= $this->extend("app") ?>
 <?= $this->section("body") ?>
 
+<head>
+  <meta name="description" content="Contact - AUBER Jean-Baptiste, développeur full-stack. Si mon profil vous intéresse, vous pouvez passer par le formulaire de contact présent sur cette page.">
+  <title>Contact - Portefolio JB AUBER</title>
+</head>
+
     <main id="main">
         <section id="contact" class="container-fluid">
             <div class="row justify-content-center">
